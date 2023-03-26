@@ -1,0 +1,65 @@
+{
+  "root": {
+    "attribute": "odor",
+    "predicateName": "==",
+    "pivot": "n",
+    "match": {
+      "attribute": "spore-print-color",
+      "predicateName": "==",
+      "pivot": "r",
+      "match": {
+        "category": "p"
+      },
+      "notMatch": {
+        "attribute": "cap-color",
+        "predicateName": "==",
+        "pivot": "y",
+        "match": {
+          "category": "p"
+        },
+        "notMatch": {
+          "attribute": "spore-print-color",
+          "predicateName": "==",
+          "pivot": "w",
+          "match": {
+            "attribute": "ring-number",
+            "predicateName": "==",
+            "pivot": "o",
+            "match": {
+              "attribute": "stalk-color-below-ring",
+              "predicateName": "==",
+              "pivot": "n",
+              "match": {
+                "category": "e"
+              },
+              "notMatch": {
+                "category": "p"
+              },
+              "matchedCount": 44,
+              "notMatchedCount": 14
+            },
+            "notMatch": {
+              "category": "e"
+            },
+            "matchedCount": 58,
+            "notMatchedCount": 421
+          },
+          "notMatch": {
+            "category": "e"
+          },
+          "matchedCount": 479,
+          "notMatchedCount": 2290
+        },
+        "matchedCount": 20,
+        "notMatchedCount": 2769
+      },
+      "matchedCount": 55,
+      "notMatchedCount": 2789
+    },
+    "notMatch": {
+      "category": "p"
+    },
+    "matchedCount": 2844,
+    "notMatchedCount": 3655
+  }
+}
